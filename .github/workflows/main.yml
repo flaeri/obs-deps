@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - maybe
     tags:
       - '20[2-9][0-9]-[0-9][0-9]-[0-9][0-9]'
   pull_request:
@@ -11,6 +12,7 @@ on:
       - '**.md'
     branches:
       - master
+      - maybe
 
 jobs:
   ffmpeg-build:
