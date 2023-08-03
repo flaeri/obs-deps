@@ -8,6 +8,8 @@ local hash='ea3d24bbe3c58b171e55fe2151fc7ffaca3ab3d2'
 local -a patches=(
   "* ${0:a:h}/patches/FFmpeg/0001-FFmpeg-6.0-OBS.patch \
     7fcb67d5e68a6ca3102c3a6aaba56750b22850552ccd8704c6636c174968ef56"
+  "* ${0:a:h}/patches/FFmpeg/0002-FFmpeg-revert-8b5d1553.patch \
+    0ce05c9580e176ce29537fef6b6aaac347a001616c8ff8ec2ea162d828be534b"
 )
 
 ## Build Steps
